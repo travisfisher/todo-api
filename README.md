@@ -37,7 +37,7 @@ Request body:
 | username      | String  | Yes      |
 | password      | String  | Yes      |
 
-Response body: 
+**Response body:**
 
     {
       "accessToken": "...",
@@ -52,7 +52,7 @@ Response body:
 
 ### GET /tasks
 
-Response body: 
+**Response body:**
 
     [
       {
@@ -77,7 +77,7 @@ Response body:
 
 ### GET /tasks/[id]
 
-Response body: 
+**Response body:** 
 
     {
       "id": 1,
@@ -88,7 +88,7 @@ Response body:
 
 ### POST /tasks
 
-Request body: 
+**Request body:**
 
 | Parameter Key | Type    | Required |
 | ------------- | ------- | -------- |
@@ -96,7 +96,7 @@ Request body:
 | task          | String  | Yes      |
 | complete      | 0 or 1  | Yes      |
 
-Response body: 
+**Response body:**
 
     {
       "id": 3,
@@ -107,7 +107,7 @@ Response body:
 
 ### PUT /tasks/[id]
 
-Request body: 
+**Request body:**
 
 | Parameter Key | Type    | Required |
 | ------------- | ------- | -------- |
@@ -115,7 +115,7 @@ Request body:
 | task          | String  | No       |
 | complete      | 0 or 1  | No       |
 
-Response body: 
+**Response body:**
 
     {
       "id": 3,
