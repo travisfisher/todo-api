@@ -32,10 +32,10 @@ _Note that all POST methods are expected to be submitted as: **Content-Type: app
 
 Request body:
 
-| Parameter Key | Type    |
-| ------------- | ------- |
-| username      | string  |
-| password      | string  |
+| Parameter Key | Type    | Required |
+| ------------- | ------- | -------- |
+| username      | String  | Yes      |
+| password      | String  | Yes      |
 
 Response body: 
 
